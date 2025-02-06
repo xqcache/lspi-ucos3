@@ -1,0 +1,9 @@
+[submodule "3rdparty/uC-OS3"]
+	path = 3rdparty/uC-OS3
+	url = https://github.com/weston-embedded/uC-OS3.git
+[submodule "3rdparty/uC-CPU"]
+	path = 3rdparty/uC-CPU
+	url = https://github.com/weston-embedded/uC-CPU.git
+[submodule "3rdparty/uC-LIB"]
+	path = 3rdparty/uC-LIB
+	url = https://github.com/weston-embedded/uC-LIB.git

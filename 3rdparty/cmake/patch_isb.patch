@@ -1,0 +1,13 @@
+diff --git a/Ports/ARM-Cortex-M/ARMv7-M/ARM/os_cpu.h b/Ports/ARM-Cortex-M/ARMv7-M/ARM/os_cpu.h
+index adba481..3f471c7 100644
+--- a/Ports/ARM-Cortex-M/ARMv7-M/ARM/os_cpu.h
++++ b/Ports/ARM-Cortex-M/ARMv7-M/ARM/os_cpu.h
+@@ -96,7 +96,7 @@ extern  "C" {                                    /* See Note #1.
+ 
+ #define  OS_TASK_SW()               OSCtxSw()
+ 
+-#define  OS_TASK_SW_SYNC()          __isb(0xF)
++#define  OS_TASK_SW_SYNC()          __builtin_arm_isb(0xF)
+ 
+ 
+ /*
